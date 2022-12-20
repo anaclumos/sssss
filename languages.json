@@ -81,7 +81,39 @@
           "to_if_alone": [
             {
               "select_input_source": {
-                "language": "^en$"
+                "input_source_id": "com.apple.keylayout.ABC",
+                "language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "R Command to Hangul",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_command",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_command",
+              "lazy": true
+            }
+          ],
+          "to_if_alone": [
+            {
+              "select_input_source": {
+                "input_mode_id": "com.apple.inputmethod.Korean.2SetKorean",
+                "input_source_id": "com.apple.inputmethod.Korean.2SetKorean",
+                "language": "ko"
               }
             }
           ]
