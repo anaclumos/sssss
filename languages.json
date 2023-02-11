@@ -23,7 +23,9 @@
           "to_if_alone": [
             {
               "select_input_source": {
-                "input_source_id": "org.youknowone.inputmethod.Gureum.han2"
+                "input_mode_id": "org.youknowone.inputmethod.Gureum.han2",
+                "input_source_id": "org.youknowone.inputmethod.Gureum.han2",
+                "language": "ko"
               }
             }
           ]
@@ -52,7 +54,9 @@
           "to_if_alone": [
             {
               "select_input_source": {
-                "input_source_id": "org.youknowone.inputmethod.Gureum.system"
+                "input_mode_id": "org.youknowone.inputmethod.Gureum.system",
+                "input_source_id": "org.youknowone.inputmethod.Gureum.system",
+                "language": "en"
               }
             }
           ]

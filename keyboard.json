@@ -25,6 +25,26 @@
       ]
     },
     {
+      "description": "Use fn(globe) to control + command + space",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "fn"
+          },
+          "to": [
+            {
+              "key_code": "spacebar",
+              "modifiers": [
+                "left_control",
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "Use Hyper + E to control + up_arrow",
       "manipulators": [
         {
