@@ -1,15 +1,15 @@
 {
-  "title": "Multilingual Input Methods",
   "rules": [
     {
       "description": "R Command to Gureum Han2",
       "manipulators": [
         {
-          "type": "basic",
           "from": {
             "key_code": "right_command",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -26,7 +26,8 @@
                 "language": "ko"
               }
             }
-          ]
+          ],
+          "type": "basic"
         }
       ]
     },
@@ -34,11 +35,12 @@
       "description": "L Command to Gureum Roman",
       "manipulators": [
         {
-          "type": "basic",
           "from": {
             "key_code": "left_command",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -55,7 +57,8 @@
                 "language": "en"
               }
             }
-          ]
+          ],
+          "type": "basic"
         }
       ]
     },
@@ -63,11 +66,12 @@
       "description": "L Command to English",
       "manipulators": [
         {
-          "type": "basic",
           "from": {
             "key_code": "left_command",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -83,7 +87,8 @@
                 "language": "en"
               }
             }
-          ]
+          ],
+          "type": "basic"
         }
       ]
     },
@@ -91,11 +96,12 @@
       "description": "R Command to Hangul",
       "manipulators": [
         {
-          "type": "basic",
           "from": {
             "key_code": "right_command",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -112,7 +118,8 @@
                 "language": "ko"
               }
             }
-          ]
+          ],
+          "type": "basic"
         }
       ]
     },
@@ -120,11 +127,12 @@
       "description": "R Command to Ctrl + Space (Change Input Method)",
       "manipulators": [
         {
-          "type": "basic",
           "from": {
             "key_code": "right_command",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -136,9 +144,12 @@
           "to_if_alone": [
             {
               "key_code": "spacebar",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             }
-          ]
+          ],
+          "type": "basic"
         }
       ]
     },
@@ -146,11 +157,12 @@
       "description": "R Command to Option + Control + M (Change Input Method)",
       "manipulators": [
         {
-          "type": "basic",
           "from": {
             "key_code": "right_command",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -162,9 +174,13 @@
           "to_if_alone": [
             {
               "key_code": "m",
-              "modifiers": ["left_control", "left_option"]
+              "modifiers": [
+                "left_control",
+                "left_option"
+              ]
             }
-          ]
+          ],
+          "type": "basic"
         }
       ]
     },
@@ -172,11 +188,12 @@
       "description": "L Command to Option + Control + N (Change Input Method)",
       "manipulators": [
         {
-          "type": "basic",
           "from": {
             "key_code": "left_command",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -188,11 +205,16 @@
           "to_if_alone": [
             {
               "key_code": "n",
-              "modifiers": ["left_control", "left_option"]
+              "modifiers": [
+                "left_control",
+                "left_option"
+              ]
             }
-          ]
+          ],
+          "type": "basic"
         }
       ]
     }
-  ]
+  ],
+  "title": "Multilingual Input Methods"
 }
