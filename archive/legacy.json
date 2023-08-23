@@ -142,7 +142,7 @@
       ]
     },
     {
-      "description": "Use Hyper + 9 to Brightness Down",
+      "description": "Use Super + 9 to Brightness Down",
       "manipulators": [
         {
           "from": {
@@ -161,7 +161,7 @@
       ]
     },
     {
-      "description": "Use Hyper + 0 to Brightness Up",
+      "description": "Use Super + 0 to Brightness Up",
       "manipulators": [
         {
           "from": {
@@ -180,7 +180,7 @@
       ]
     },
     {
-      "description": "Use Hyper + (-) to Sound Down",
+      "description": "Use Super + (-) to Sound Down",
       "manipulators": [
         {
           "from": {
@@ -199,7 +199,7 @@
       ]
     },
     {
-      "description": "Use Hyper + (+) to Sound Up",
+      "description": "Use Super + (+) to Sound Up",
       "manipulators": [
         {
           "from": {
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "description": "Use Hyper + 6 to Previous Song",
+      "description": "Use Super + 6 to Previous Song",
       "manipulators": [
         {
           "from": {
@@ -237,7 +237,7 @@
       ]
     },
     {
-      "description": "Use Hyper + 7 to Pause",
+      "description": "Use Super + 7 to Pause",
       "manipulators": [
         {
           "from": {
@@ -256,7 +256,7 @@
       ]
     },
     {
-      "description": "Use Hyper + 8 to Fast Forward",
+      "description": "Use Super + 8 to Fast Forward",
       "manipulators": [
         {
           "from": {
