@@ -1,6 +1,6 @@
-# Karabiner
+# SSSSS
 
-Opinionated Karabiner Complex Settings
+Sunghyun's Super Streamlined Shortcuts Setup
 
 ```bash
 ~/.config/karabiner/assets/complex_modifications
