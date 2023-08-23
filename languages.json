@@ -1,168 +1,13 @@
 {
   "rules": [
     {
-      "description": "R Command to Gureum Han2",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "right_command",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "right_command",
-              "lazy": true
-            }
-          ],
-          "to_if_alone": [
-            {
-              "select_input_source": {
-                "input_mode_id": "org.youknowone.inputmethod.Gureum.han2",
-                "input_source_id": "org.youknowone.inputmethod.Gureum.han2",
-                "language": "ko"
-              }
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "L Command to Gureum Roman",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "left_command",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "left_command",
-              "lazy": true
-            }
-          ],
-          "to_if_alone": [
-            {
-              "select_input_source": {
-                "input_mode_id": "org.youknowone.inputmethod.Gureum.system",
-                "input_source_id": "org.youknowone.inputmethod.Gureum.system",
-                "language": "en"
-              }
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "L Command to English",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "left_command",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "left_command",
-              "lazy": true
-            }
-          ],
-          "to_if_alone": [
-            {
-              "select_input_source": {
-                "input_source_id": "com.apple.keylayout.ABC",
-                "language": "en"
-              }
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "R Command to Hangul",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "right_command",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "right_command",
-              "lazy": true
-            }
-          ],
-          "to_if_alone": [
-            {
-              "select_input_source": {
-                "input_mode_id": "com.apple.inputmethod.Korean.2SetKorean",
-                "input_source_id": "com.apple.inputmethod.Korean.2SetKorean",
-                "language": "ko"
-              }
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "R Command to Ctrl + Space (Change Input Method)",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "right_command",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "right_command",
-              "lazy": true
-            }
-          ],
-          "to_if_alone": [
-            {
-              "key_code": "spacebar",
-              "modifiers": [
-                "left_control"
-              ]
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
       "description": "R Command to Option + Control + M (Change Input Method)",
       "manipulators": [
         {
           "from": {
             "key_code": "right_command",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -174,10 +19,7 @@
           "to_if_alone": [
             {
               "key_code": "m",
-              "modifiers": [
-                "left_control",
-                "left_option"
-              ]
+              "modifiers": ["left_control", "left_option"]
             }
           ],
           "type": "basic"
@@ -191,9 +33,7 @@
           "from": {
             "key_code": "left_command",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -205,10 +45,7 @@
           "to_if_alone": [
             {
               "key_code": "n",
-              "modifiers": [
-                "left_control",
-                "left_option"
-              ]
+              "modifiers": ["left_control", "left_option"]
             }
           ],
           "type": "basic"

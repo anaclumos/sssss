@@ -7,11 +7,7 @@
           "from": {
             "key_code": "d",
             "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_shift"
-              ]
+              "mandatory": ["left_control", "left_option", "left_shift"]
             }
           },
           "to": [
@@ -30,11 +26,7 @@
           "from": {
             "key_code": "5",
             "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_shift"
-              ]
+              "mandatory": ["left_control", "left_option", "left_shift"]
             }
           },
           "to": [
@@ -56,10 +48,7 @@
           "to": [
             {
               "key_code": "spacebar",
-              "modifiers": [
-                "left_command",
-                "left_control"
-              ]
+              "modifiers": ["left_command", "left_control"]
             }
           ],
           "type": "basic"
@@ -73,19 +62,13 @@
           "from": {
             "key_code": "e",
             "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_shift"
-              ]
+              "mandatory": ["left_control", "left_option", "left_shift"]
             }
           },
           "to": [
             {
               "key_code": "up_arrow",
-              "modifiers": [
-                "left_control"
-              ]
+              "modifiers": ["left_control"]
             }
           ],
           "type": "basic"
@@ -99,180 +82,13 @@
           "from": {
             "key_code": "backslash",
             "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_shift"
-              ]
+              "mandatory": ["left_control", "left_option", "left_shift"]
             }
           },
           "to": [
             {
               "key_code": "c",
-              "modifiers": [
-                "fn"
-              ]
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Use Hyper + 9 to Brightness Down",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "9",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "display_brightness_decrement"
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Use Hyper + 0 to Brightness Up",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "0",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "display_brightness_increment"
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Use Hyper + (-) to Sound Down",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "hyphen",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "volume_decrement"
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Use Hyper + (+) to Sound Up",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "equal_sign",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "volume_increment"
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Use Hyper + 6 to Previous Song",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "6",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "consumer_key_code": "rewind"
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Use Hyper + 7 to Pause",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "7",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "consumer_key_code": "play_or_pause"
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Use Hyper + 8 to Fast Forward",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "8",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "consumer_key_code": "fast_forward"
+              "modifiers": ["fn"]
             }
           ],
           "type": "basic"
