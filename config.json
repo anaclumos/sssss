@@ -168,6 +168,48 @@
           "type": "basic"
         }
       ]
+    },
+    {
+      "description": "Map Alt + F4 to Command + Q",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "f4",
+            "modifiers": {
+              "mandatory": ["left_alt"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "q",
+              "modifiers": ["left_command"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Map Control + W to Command + W",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "w",
+            "modifiers": {
+              "mandatory": ["left_control"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "w",
+              "modifiers": ["left_command"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
     }
   ],
   "title": "SSSSS (Sunghyun's Super Streamlined Shortcuts Setup)"
