@@ -118,7 +118,7 @@
       ]
     },
     {
-      "description": "R Command to Command + Option + Control + M (Remap this in Keyboard Maestro and Gureum to 'Change Input Method, Korean')",
+      "description": "R Command to Option + Control + 4 (Remap this in Keyboard Maestro and Gureum to 'Change Input Method, Korean')",
       "manipulators": [
         {
           "from": {
@@ -135,8 +135,8 @@
           ],
           "to_if_alone": [
             {
-              "key_code": "m",
-              "modifiers": ["left_control", "left_option", "left_command"]
+              "key_code": "4",
+              "modifiers": ["left_control", "left_option"]
             }
           ],
           "type": "basic"
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "description": "L Command to Command + Option + Control + N (Remap this in Keyboard Maestro and Gureum to 'Change Input Method, English')",
+      "description": "L Command to + Option + Control + 3 (Remap this in Keyboard Maestro and Gureum to 'Change Input Method, English')",
       "manipulators": [
         {
           "from": {
@@ -161,8 +161,8 @@
           ],
           "to_if_alone": [
             {
-              "key_code": "n",
-              "modifiers": ["left_control", "left_option", "left_command"]
+              "key_code": "3",
+              "modifiers": ["left_control", "left_option"]
             }
           ],
           "type": "basic"
